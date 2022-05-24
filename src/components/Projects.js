@@ -1,8 +1,8 @@
 import React from 'react'
 import  Card  from './Card'
 import robo_img from "../Images/robojackets.jpg"
-import vip_img from "../Images/VIP.PNG"
-import website_img from "../Images/website.PNG"
+import vip_img from "../Images/VIP.jpg"
+import website_img from "../Images/website.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
     }
     slideLeft() {
         for (let i = 0; i < this.state.positions.length; i++) {
-            if (this.state.positions[i] == -1) {
+            if (this.state.positions[i] === -1) {
                 this.state.positions[i] = 1;
             } else {
                 this.state.positions[i]--;

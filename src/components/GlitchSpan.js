@@ -7,7 +7,6 @@ export const GlitchSpan = () => {
         const step = setInterval(() => {     
            setText(texts[index]);
            setIndex((index + 1) % texts.length);
-           console.log(text);
         }, 4000);
         return() => clearInterval(step);
     });

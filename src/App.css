@@ -89,14 +89,18 @@
 .main {
   background-color: #141414;
   min-height: 87vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 .home__buttons {
+  height: 50vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .home__button {
   display: flex;
@@ -117,6 +121,7 @@
   transform: translateY(-3vh);
 }
 .glitch {
+  height: 50vh;
   font-family: 'OCR A Extended', sans-serif;  
   font-size: 4vw;
   font-weight: 700;

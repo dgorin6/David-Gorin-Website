@@ -208,6 +208,10 @@
   #navbar__logo {
     display: none;
   }
+  .navbar__container {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .projects__main {

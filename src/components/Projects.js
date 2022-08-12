@@ -3,6 +3,7 @@ import  Card  from './Card'
 import robo_img from "../Images/robojackets.jpg"
 import vip_img from "../Images/VIP.jpg"
 import website_img from "../Images/website.jpg"
+import abbvie from "../Images/abbvie.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -12,7 +13,7 @@ export default class Projects extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            positions: [0,1,2],
+            positions: [0,1,2,3],
             left: true,
             leftBoxActive: 0,
             rightBoxActive: 1
@@ -90,6 +91,10 @@ export default class Projects extends React.Component {
                 <Card click = "https://github.com/dgorin6/David-Gorin-Website" title = "This Website" image = {website_img}
                 desc = 'This website was my first stab at Javascript/HTML/CSS. I originally made it with vanilla Javascript and CSS, but later refactored it to be a React app instead.'
                     tags ={<ul><li className='card__tags'>Javascript</li><li className='card__tags'>HTML</li><li className='card__tags'>CSS</li><li className='card__tags'>React.js</li></ul>} act = {this.updateAct(2)} 
+                />
+                <Card title = "Data Science Intern | AbbVie" image = {abbvie}
+                desc = 'Worked on parameter optimization for an XGBoost Classification Model. Helped improve time efficiency of various feature enginneering functions.'
+                    tags ={<ul><li className='card__tags'>Python</li><li className='card__tags'>JupyterLab</li><li className='card__tags'>SQL</li><li className='card__tags'>Pandas</li></ul>} act = {this.updateAct(3)} 
                 />
             </div>
             <div className='right__box' style = {{opacity: this.state.rightBoxActive}}>

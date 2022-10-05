@@ -22,7 +22,9 @@ export default class Game extends Component {
     this.setState({
       cells: Array(8).fill(0).map(() => Array(8).fill(0)),
       colors: Array(8).fill().map(() => Array(8).fill("not__taken")),
-      curr_player: 'player__1'
+      curr_player: 'player__1',
+      winner: "no__winner",
+      winner_name: "None"
   });
   }
   changeTeam() {

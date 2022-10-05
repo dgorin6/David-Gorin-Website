@@ -12,6 +12,6 @@ This website was initially made with vanilla javascript and html, and using css 
 
 This project taught me a lot of new languages and libraries that I have never used. In order to create this website, I had to learn about the DOM (and the virtual DOM in the case of React), as well as how to write react components, how to handle events, how to add keyframe animations with css, and much more.
 
-# What I'm proud of
+# Biggest Challanges
 
 I'm really proud of the animation I made on the home screen as well as the card carousel on the project's page. These both took me a long time as I had not yet accustomed to React nor CSS, but I really like how they came out.

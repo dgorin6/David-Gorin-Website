@@ -71,7 +71,7 @@ async calculateChanges(r,c){
     let queue1 = [];
     let queue2 = [];
     queue1.push([r,c]);
-    while(queue1.length > 0 || queue2.length > 0) {
+    while((queue1.length > 0 || queue2.length > 0) && this.state.winner_name == "None") {
         for (let i = 0; i < queue1.length; i++) {
             let curr = queue1[i]
             board[curr[0]][curr[1]]+=1

@@ -10,8 +10,8 @@
   font-size: 2.5rem;
   margin:  0 0 5vh 0;
   padding: 0;
-  width: 25%;
-  height: 25%;
+  width: 12.5%;
+  height: 12,5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows:  1fr 1fr 1fr;
@@ -226,7 +226,6 @@
 }
 @media screen and (max-width:960px) {
   .title {
-    background-color: aquamarine;
     font-size: 2rem;
     margin: 0;
     padding: 0;

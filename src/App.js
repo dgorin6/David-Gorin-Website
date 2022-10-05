@@ -11,12 +11,11 @@ import Atomz from './components/Atomz';
 function App() {
   return (
     <BrowserRouter>
-        <Navbar />
       <Routes>
-        <Route path = "/" element = {<Home />}> </Route>
-        <Route path = "/projects" element = {<Projects />}></Route>
-        <Route path = "/skills" element = {<Skills />}> </Route>
-        <Route path = "/about" element = {<About />}> </Route>
+        <Route path = "/" element = {<div><Navbar /><Home /></div>}> </Route>
+        <Route path = "/projects" element = {<div><Navbar /><Projects /></div>}></Route>
+        <Route path = "/skills" element = {<div><Navbar /><Skills /></div>}> </Route>
+        <Route path = "/about" element = {<div><Navbar /><About /></div>}></Route>
         <Route path = "/atomz" element = {<Atomz />}> </Route>
       </Routes>
     </BrowserRouter>

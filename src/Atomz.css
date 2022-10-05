@@ -6,7 +6,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.title {
+.atomz_title {
   font-size: 2.5rem;
   margin:  0 0 5vh 0;
   padding: 0;
@@ -225,7 +225,7 @@
   opacity: 0;
 }
 @media screen and (max-width:960px) {
-  .title {
+  .atomz_title {
     font-size: 2rem;
     margin: 0;
     padding: 0;

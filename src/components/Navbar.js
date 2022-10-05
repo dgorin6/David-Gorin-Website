@@ -1,9 +1,10 @@
 
 import {NavLink} from 'react-router-dom';
+import { useLocation } from 'react-router-dom'
 function Navbar() {
   return (
     <header>
-        <nav className="navbar">
+        <nav className='navbar'>
         <div className="navbar__container">
             <a href="/" id="navbar__logo"><i className="fas fa-laptop"></i>David Gorin</a>
             <div className="navbar__toggle" id="mobile-menu">

@@ -112,6 +112,7 @@
 }
 .player__1 {
   border-width: 0.001rem;
+  border-color: black;
   height: 100%;
   width: 100%;
   margin:0;
@@ -124,6 +125,7 @@
 }
 .player__2 {
   border-width: 0.001rem;
+  border-color: black;
   height: 100%;
   width: 100%;
   margin:0;
@@ -138,6 +140,7 @@
   background-color: aliceblue;
   border-radius: 0;
   border-width: 0.001rem;
+  border-color: black;
   height: 100%;
   width: 100%;
   margin:0;
@@ -284,6 +287,7 @@
   }
   .player__1 {
     border-width: 0.001rem;
+    border-color: black;
     height: 100%;
     width: 100%;
     margin:0;
@@ -296,6 +300,7 @@
   }
   .player__2 {
     border-width: 0.001rem;
+    border-color: black;
     height: 100%;
     width: 100%;
     margin:0;

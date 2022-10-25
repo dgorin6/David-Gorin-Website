@@ -97,9 +97,9 @@ export default class Projects extends React.Component {
                 desc = 'Worked on parameter optimization for an XGBoost Classification Model. Helped improve time efficiency of various feature enginneering functions.'
                     tags ={<ul><li className='card__tags'>Python</li><li className='card__tags'>JupyterLab</li><li className='card__tags'>SQL</li><li className='card__tags'>Pandas</li></ul>} act = {this.updateAct(3)} 
                 />
-                <Card click = "/atomz" title = "Atomz: The Game" image = {atomz}
-                desc = 'A game I made for fun using React.js. Click me to play!(friend required)'
-                    tags ={<ul><li className='card__tags'>React.js</li><li className='card__tags'>HTML</li><li className='card__tags'>CSS</li></ul>} act = {this.updateAct(4)} 
+                <Card click = "https://atomz.herokuapp.com/" title = "Atomz: The Game" image = {atomz}
+                desc = 'A game I made for fun using React.js, Node.js, and socket.io.  Click me to play!(friend required)'
+                    tags ={<ul><li className='card__tags'>React.js</li><li className='card__tags'>Node.js</li><li className='card__tags'>Socket.io</li></ul>} act = {this.updateAct(4)} 
                 />
             </div>
             <div className='right__box' style = {{opacity: this.state.rightBoxActive}}>

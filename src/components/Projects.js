@@ -4,6 +4,7 @@ import robo_img from "../Images/robojackets.jpg"
 import vip_img from "../Images/VIP.jpg"
 import website_img from "../Images/website.jpg"
 import abbvie from "../Images/abbvie.jpg"
+import cnh from "../Images/cnh.jpg"
 import atomz from '../Images/atomz.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +15,7 @@ export default class Projects extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            positions: [0,1,2,3,4],
+            positions: [0,1,2,3,4,5],
             left: true,
             leftBoxActive: 0,
             rightBoxActive: 1
@@ -89,17 +90,21 @@ export default class Projects extends React.Component {
                 desc = 'Worked on parameter optimization for an XGBoost Classification Model. Helped improve time efficiency of various feature enginneering functions.'
                     tags ={<ul><li className='card__tags'>Python</li><li className='card__tags'>JupyterLab</li><li className='card__tags'>SQL</li><li className='card__tags'>Pandas</li></ul>} act = {this.updateAct(1)} 
                 />
+                <Card title = "Software Engineer Intern | CNH Industrial" image = {cnh}
+                desc = "Developed a React based application for a support team of 50 people to view infrastructure KPI’s and create work tickets in Azure DevOps, reducing an hours long process to minutes"
+                    tags ={<ul><li className='card__tags'>Azure</li><li className='card__tags'>.NET</li><li className='card__tags'>React.js</li></ul>} act = {this.updateAct(2)} 
+                />
                 <Card title = "Vertically Integrated Projects - Research" image = {vip_img}
                 desc = 'I performed research regarding the efficacy of roundabouts for traffic control using reinforcement learning. My work included debugging the reinforcement learning model and animating a trained model.'
-                    tags ={<ul><li className='card__tags'>Python</li><li className='card__tags'>Tensorflow</li><li className='card__tags'>Matplotlib</li><li className='card__tags'>Reinforcement Learning</li></ul>} act = {this.updateAct(2)} 
+                    tags ={<ul><li className='card__tags'>Python</li><li className='card__tags'>Tensorflow</li><li className='card__tags'>Matplotlib</li><li className='card__tags'>Reinforcement Learning</li></ul>} act = {this.updateAct(3)} 
                 />
                 <Card click = "https://atomz.herokuapp.com/" title = "Atomz: The Game" image = {atomz}
                 desc = 'A game I made for fun using React.js, Node.js, and socket.io.  Click anywhere on the card to play!(friend required)'
-                    tags ={<ul><li className='card__tags'>React.js</li><li className='card__tags'>Node.js</li><li className='card__tags'>Socket.io</li></ul>} act = {this.updateAct(3)} 
+                    tags ={<ul><li className='card__tags'>React.js</li><li className='card__tags'>Node.js</li><li className='card__tags'>Socket.io</li></ul>} act = {this.updateAct(4)} 
                 />
                 <Card click = "https://github.com/dgorin6/David-Gorin-Website" title = "This Website" image = {website_img}
                 desc = 'This website was my first stab at Javascript/HTML/CSS. I originally made it with vanilla Javascript and CSS, but later refactored it to be a React app instead. Click on the card for github.'
-                    tags ={<ul><li className='card__tags'>Javascript</li><li className='card__tags'>HTML</li><li className='card__tags'>CSS</li><li className='card__tags'>React.js</li></ul>} act = {this.updateAct(4)} 
+                    tags ={<ul><li className='card__tags'>Javascript</li><li className='card__tags'>HTML</li><li className='card__tags'>CSS</li><li className='card__tags'>React.js</li></ul>} act = {this.updateAct(5)} 
                 />
             </div>
             <div className='right__box' style = {{opacity: this.state.rightBoxActive}}>

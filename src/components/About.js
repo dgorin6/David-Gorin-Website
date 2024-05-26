@@ -19,9 +19,9 @@ function About() {
                 <div className='extracurr'>
                     <div className='about__title'> Some Things I Do in my Freetime</div>
                     <ul>
-                        <li className='about__p'>Water Polo (2020 Illinois State Champions)</li>
-                        <li className='about__p'>Volunteer at Animal Shelter (I love dogs)</li>
+                        <li className='about__p'>Play with my dog</li>
                         <li className='about__p'>Basketball (watch, not play)</li>
+                        <li className='about__p'>Rock Climbing </li>
                     </ul>
                 </div>
                 <a href={pdf}>

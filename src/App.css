@@ -417,7 +417,7 @@
 }
 .about__body {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 .right__body {
   display:flex;
@@ -428,12 +428,12 @@
 }
 .left__body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: grey;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: linear-gradient(to top,#2debc2 0%,#146956 100%);
 }
 .about__image{
-  height: 20rem;
+  height: 30rem;
 }
 .about__title {
   font-family: 'Roboto', sans-serif;

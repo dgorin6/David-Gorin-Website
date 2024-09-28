@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GlitchSpan } from './GlitchSpan'
+import headshot from "../Images/headshot.png";
 export const Home = () => {
     const texts = ["who is David Gorin?", "Developer", "Problem Solver", "Engineer", "Team Player"];
     const[text, setText] = useState("Who is David Gorin?");
@@ -13,6 +14,7 @@ export const Home = () => {
     });
   return (
     <div className="main">
+        <img src = {headshot} className = "home__image"></img>
         <div className='home__buttons'>
           <button className='home__button' onClick = {() => {window.location.href = "/projects"}}>Projects<i className="fas fa-code"></i></button>
           <button  className='home__button' onClick = {() => {window.location.href = "/skills"}}>Skills<i className="fa fa-cogs" aria-hidden="true"></i></button>

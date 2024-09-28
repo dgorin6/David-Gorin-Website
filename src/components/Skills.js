@@ -4,20 +4,7 @@ import SkillCard from './SkillCard';
 function Skills() {
   return (
     <div className="skills__main">
-      <SkillCard
-        title="Languages"
-        tags={
-          <ul>
-            <li className="skills__tags">Python</li>
-            <li className="skills__tags">JavaScript</li>
-            <li className="skills__tags">TypeScript</li>
-            <li className="skills__tags">Java</li>
-            <li className="skills__tags">C#</li>
-            <li className="skills__tags">C/C++</li>
-          </ul>
-        }
-      />
-      <SkillCard
+    <SkillCard
         title="Frameworks"
         tags={
           <ul>
@@ -32,6 +19,19 @@ function Skills() {
             <li className="skills__tags">Tensorflow Keras</li>
             <li className="skills__tags">Pandas</li>
             <li className="skills__tags">ROS</li>
+          </ul>
+        }
+      />
+      <SkillCard
+        title="Languages"
+        tags={
+          <ul>
+            <li className="skills__tags">Python</li>
+            <li className="skills__tags">JavaScript</li>
+            <li className="skills__tags">TypeScript</li>
+            <li className="skills__tags">Java</li>
+            <li className="skills__tags">C#</li>
+            <li className="skills__tags">C/C++</li>
           </ul>
         }
       />

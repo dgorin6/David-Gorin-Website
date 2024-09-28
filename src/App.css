@@ -31,8 +31,7 @@
 }
 
 #navbar__logo {
-  background-color: #146956;
-  background-image: linear-gradient(to top, #146956 0%, #2debc2 100%);
+  background-color: #2debc2;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -95,8 +94,11 @@
   align-items: center;
   color: white;
 }
+.home__image {
+    width: 15vw;
+}
 .home__buttons {
-  height: 50vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -107,9 +109,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20vw;
-  font-size: 4vw;
-  height: 20vh;
+  width: 15vw;
+  font-size: 3vw;
+  height: 15vh;
   border-radius: 1rem;
   background-image: linear-gradient(to top, #146956 0%, #2debc2 100%);
   box-shadow: 0rem 0rem 1rem 0rem grey;;
@@ -239,8 +241,7 @@
   padding: 1rem 0rem 1rem 1rem;
   border-radius: 1rem;
   box-shadow: 0rem 0rem 1rem 0rem grey;
-  background-color: #146956;
-  background-image: linear-gradient(to top, #146956 0%, #2debc2 100%);
+  background-color: #2d6f61;
   color: white;
   display: flex;
   justify-content: top;
@@ -255,8 +256,7 @@
   padding: 1rem 0rem 1rem 1rem;
   border-radius: 1rem;
   box-shadow: 0rem 0rem 1rem 0rem grey;
-  background-color: #146956;
-  background-image: linear-gradient(to top, #146956 0%, #2debc2 100%);
+  background-color: #2d6f61;
   color: white;
   display: flex;
   justify-content: top;
@@ -284,15 +284,15 @@
 .title {
   font-size: 2vw;
   padding: 0.5vw;
-  color:#133830;
+  color:white;
   font-weight: bold;
 }
 .card__image{ 
-  max-height: 30vh;
+  max-height: 20vh;
   max-width: 25vw;
 }
 .desc {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   padding: 0.5rem 0rem 0rem 0rem;
 }
 .activeCardRight:hover {
@@ -366,8 +366,7 @@
 
 .skills__main {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   background: #131313;
   color:white;
@@ -380,7 +379,6 @@
   border-radius: 1rem;
   box-shadow: 0rem 0rem 1rem 0rem grey;
   background-color: #146956;
-  background-image: linear-gradient(to top, #146956 0%, #2debc2 100%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -391,21 +389,21 @@
 }
 
 .skills__title {
-  font-size: 3vw;
+  font-size: 2vw;
   padding: 0.5vw 0rem;
 }
 
 .skills__tags{
-  width: 30vw;
+  width: 20vw;
   color:white;
   background-color: #133830;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem 0rem;
+  padding: 0.2rem 0rem;
   margin: 0rem 0rem 1rem 0rem;
   font-family: 'OCR A Extended', sans-serif;
-  font-size: 2vw;
+  font-size: 1vw;
   text-align: center;
 }
 
@@ -424,7 +422,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background-image: linear-gradient(to top,#2debc2 0%,#146956 100%);
+  background-color: #146956;
 }
 .left__body {
   display: flex;
@@ -439,6 +437,7 @@
   font-family: 'Roboto', sans-serif;
   padding: 1rem;
   font-size: 2rem;
+  text-decoration: underline;
 }
 
 .about__p {

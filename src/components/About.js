@@ -17,7 +17,7 @@ function About() {
 
                 </p>
                 <div className='extracurr'>
-                    <div className='about__title'> Some Things I Do in my Freetime</div>
+                    <div className='about__title'> My Hobbies</div>
                     <ul>
                         <li className='about__p'>Play with my dog</li>
                         <li className='about__p'>Basketball (watch, not play)</li>
